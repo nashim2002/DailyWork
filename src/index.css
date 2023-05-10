@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.header {
+  height: 200px;
+  width: 100%;
+  background-color: rgb(177, 246, 246);
+  padding-top: 50px;
+}
+.header button {
+  margin-top: 10px;
+}
+.card-container {
+  height: 300px;
+  width: 300px;
+  box-shadow: 0px 3px 50px #a5a5a5;
+}
+
+.card-wrapper {
+  width: 270px;
+  height: 200px;
+  box-shadow: 0px 3px 50px #a5a5a5;
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+  /* padding: 50px; */
+  margin-right: 25px;
+  background-color: rgb(220, 220, 236);
+}
+
+.card-top {
+  width: 100%;
+  height: 2%;
+}
+
+.task-holder {
+  width: 100%;
+  height: 98%;
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: auto;
+}
+
+.card-header {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: auto;
+  height: 30px;
+  padding: 1px 1px !important;
+  text-align: center;
+}
+
+.task-container {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #edf2a4;
+  padding: 40px 100px;
+}
